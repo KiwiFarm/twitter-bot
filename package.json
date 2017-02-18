@@ -1,0 +1,19 @@
+{
+  "name": "twitter-bot",
+  "version": "1.0.0",
+  "description": "Hej he j   det kom mer me r nar t  från rnynoyyRobert ojcjjjjjjjjjjjjjjjj oss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiwiFarm/twitter-bot.git"
+  },
+  "author": "Dennis & Mattias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiwiFarm/twitter-bot/issues"
+  },
+  "homepage": "https://github.com/KiwiFarm/twitter-bot#readme"
+}
