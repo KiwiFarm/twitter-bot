@@ -2,9 +2,10 @@
   "name": "twitter-bot",
   "version": "1.0.0",
   "description": "Hej he j   det kom mer me r nar t  från rnynoyyRobert ojcjjjjjjjjjjjjjjjj oss",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "ava --watch",
+    "lint": "eslint */*.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/KiwiFarm/twitter-bot/issues"
   },
-  "homepage": "https://github.com/KiwiFarm/twitter-bot#readme"
+  "homepage": "https://github.com/KiwiFarm/twitter-bot#readme",
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "eslint": "^3.16.1",
+    "eslint-config-airbnb-base": "^11.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "twitter": "^1.7.0"
+  }
 }
